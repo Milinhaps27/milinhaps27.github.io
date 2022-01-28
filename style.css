@@ -1,0 +1,35 @@
+h2 {
+    font-family: monospace;
+    font-size: 30px;
+    background-color: #bf4342;
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 0%;
+    color: #fcf300;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  body {
+    background-color: #5e3023;
+    color: #ffe5ec;
+    font-family: monospace;
+  }
+
+  .pinture {
+    border-radius: 100%;
+  }
+
+  a {
+    color: #fcf300;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  ul {
+    font-size: large;
+
+  }
