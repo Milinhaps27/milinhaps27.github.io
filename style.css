@@ -1,0 +1,9 @@
+#descrição div p {
+    display: block;
+ width: 10px;
+ color: brown;
+}
+
+#foto {
+    display: inline-block;
+}
