@@ -1,55 +1,55 @@
-<<<<<<< HEAD
-#descrição div p {
-    display: block;
- width: 10px;
- color: brown;
+p {
+  font-size: 15px;
+  text-align: center;
+}
+
+body {
+  background-color: #5e3023;
+  color: #cfc4c7;
+  font-family: monospace;
+ padding: 20px;
 }
 
 #foto {
-    display: inline-block;
+  border-radius: 50%;
+  float: left;
+padding: 10px ;
+background-color: #cfc4c7;
 }
-=======
+
+a {
+  color: #fcf300;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul {
+  font-size: large;
+}
+
+#descricao {
+  color: #d3d3e2;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: absolute;
+  padding: 75px 100px 25px 400px;
+}
+
 h2 {
-    font-family: monospace;
-    font-size: 30px;
-    background-color: #bf4342;
-    text-align: center;
-    border-radius: 15px;
-    padding-bottom: 0%;
-    color: #fcf300;
-  }
+  color: #ebd1ba;
+  text-align: center;
+  font-size: 35px;
+  background-color: #d85b39;
+  border-radius: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
 
-  p {
-    font-size: 15px;
-    text-align: center;
-  }
+.image-contener {
+  height: 300px;
+  position: relative;
+}
 
-  body {
-    background-color: #5e3023;
-    color: #ffe5ec;
-    font-family: monospace;
-  }
-
-  .pinture {
-    border-radius: 100%;
-    display: block; /*Altera o modo de mostrar o conteúdo para um bloco*/
-    width: 80%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
-    margin-left: auto; /*define a margem a esquerda o que sobrou do tamanho total horizondal*/
-    margin-right: auto; /*define a margem a direita o que sobrou do tamanho total horizondal*/
-  }
-
-  a {
-    color: #fcf300;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
-  }
-
-  ul {
-    font-size: large;
-
-  }
-
-  .tamanho{
-    width: 40%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
-  }
->>>>>>> 034133689db8791a60d22f67547ba5f80b7c2e3a
+ul li:nth-child(odd) {
+  background-color: #ebd1ba;
+  color: #5e3023;
+}
