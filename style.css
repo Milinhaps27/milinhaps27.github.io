@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #descrição div p {
     display: block;
  width: 10px;
@@ -7,3 +8,48 @@
 #foto {
     display: inline-block;
 }
+=======
+h2 {
+    font-family: monospace;
+    font-size: 30px;
+    background-color: #bf4342;
+    text-align: center;
+    border-radius: 15px;
+    padding-bottom: 0%;
+    color: #fcf300;
+  }
+
+  p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  body {
+    background-color: #5e3023;
+    color: #ffe5ec;
+    font-family: monospace;
+  }
+
+  .pinture {
+    border-radius: 100%;
+    display: block; /*Altera o modo de mostrar o conteúdo para um bloco*/
+    width: 80%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
+    margin-left: auto; /*define a margem a esquerda o que sobrou do tamanho total horizondal*/
+    margin-right: auto; /*define a margem a direita o que sobrou do tamanho total horizondal*/
+  }
+
+  a {
+    color: #fcf300;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  ul {
+    font-size: large;
+
+  }
+
+  .tamanho{
+    width: 40%; /*define que este bloco tenha tamanho de 40% do tamanho total horizontal da página*/
+  }
+>>>>>>> 034133689db8791a60d22f67547ba5f80b7c2e3a
